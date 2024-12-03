@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header  {
+    flex-grow: 1;
+}
+
+.hero {
+   
+    background-size: cover;
+}
+.Bg-img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%
+}
+.container {
+    background-color: ;
+}
+footer {
+    flex-shrink: 0;
+}
+.navbar-toggler {
+    background-color: gray;
+}
+nav ul li a:hover {
+    transition: backgroud-color 0.3s ease-in-out , box-shadow 0.3s ease-in-out ;
+    color: orange;
+    border: 1px solid orange;
+}
+nav div ul li a {
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: white;
+}
+.choose {
+    display: flex;
+    gap: 15px;
+    height: 50px;
+    width: 100%;
+    
+}
